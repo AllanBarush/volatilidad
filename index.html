@@ -39,7 +39,7 @@ footer a{color:var(--acc);text-decoration:none}
 </style></head><body>
 
 <header class="hero">
- <div class="serie">RiskMathics · Trading Economy Series</div>
+ <div class="serie">RiskMathics Financial Institute · Curso Ejecutivo</div>
  <h1>Volatilidad como Indicador Adelantado</h1>
  
  <div class="chips">
@@ -59,118 +59,7 @@ footer a{color:var(--acc);text-decoration:none}
   <div class="f"><div class="n">17 Nov</div><div class="l">Inicio · 2026</div></div>
   <div class="f"><div class="n">MXN $20,137 + TAX</div><div class="l">Inversión</div></div>
  </div>
- <div class="cross"><div><div class="t">¿Buscas la formación completa?</div><div class="s">Este curso forma parte del Trading Economy: A Breaking Point for Economists, Traders &amp; Asset Managers. Cúrsalo dentro del programa completo.</div></div><a class="btn btn-ghost" href="https://tradingeconomy.riskmathicslabs.com" target="_blank" rel="noopener">Ver el programa</a></div>
-</div></section>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
-<style>
- #rm-enroll .iti{width:100%;}
- #rm-enroll .iti__selected-flag{background:transparent;padding-left:0;}
- #rm-enroll input,#rm-enroll select{outline:none;background:transparent;}
- #rm-enroll .rm-in{width:100%;border:none;border-bottom:1px solid #dfe5ee;border-radius:0;padding:9px 1px 10px;font-size:15px;font-family:'Lora',Georgia,serif;color:#1b2430;transition:border-color .18s;}
- #rm-enroll .rm-in:focus{border-bottom-color:#8f9bb0;}
- #rm-enroll .rm-in::placeholder{color:#b7c0cd;}
- #rm-enroll .rm-lb{display:block;font-family:'Poppins',Arial,sans-serif;font-size:10px;letter-spacing:1.6px;font-weight:500;color:#93A0B4;text-transform:uppercase;margin-bottom:2px;}
- #rm-enroll select.rm-in{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2393A0B4' stroke-width='1.4' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 4px center;padding-right:20px;}
- @media (max-width:560px){#rm-enroll .rm-2col{grid-template-columns:1fr !important;}}
-</style>
-<section id="rm-enroll" style="background:linear-gradient(150deg,#26150B,#140B05);color:#fff;padding:88px 22px;font-family:'Poppins',Arial,sans-serif;">
- <div style="max-width:600px;margin:0 auto;">
- <div style="text-align:center;margin-bottom:38px;">
- <div style="color:#C55A2B;letter-spacing:3px;font-size:10.5px;font-weight:500;">INSCRIPCIÓN · CUPO LIMITADO</div>
- <h2 style="font-size:26px;margin:16px 0 0;font-weight:600;line-height:1.25;letter-spacing:.3px;">Asegura tu lugar</h2>
- <div style="width:50px;height:2px;background:#C55A2B;margin:18px auto;"></div>
- <p style="color:#c2cee0;font-size:15px;margin:0;font-family:'Lora',Georgia,serif;font-style:italic;">Déjanos tus datos, verifica tu correo y tu WhatsApp,<br>y recibe el temario completo. Sin compromiso.</p>
- </div>
- <div style="background:#ffffff;color:#1b2430;border-radius:6px;padding:44px 42px;border:1px solid rgba(255,255,255,.14);box-shadow:0 2px 24px rgba(0,0,0,.16);">
- <form id="rm-lead" onsubmit="return rmSubmit(event)" style="display:grid;gap:22px;">
- <div><label class="rm-lb">Nombre(s)</label><input class="rm-in" name="nombre" required></div>
- <div class="rm-2col" style="display:grid;grid-template-columns:1fr 1fr;gap:22px 20px;">
- <div><label class="rm-lb">Apellido paterno</label><input class="rm-in" name="apellido_paterno" required></div>
- <div><label class="rm-lb">Apellido materno</label><input class="rm-in" name="apellido_materno"></div>
- </div>
- <div><label class="rm-lb">Tipo de registro</label>
- <select class="rm-in" name="tipo_interes" required onchange="var individual=this.value==='individual',form=this.form;['puesto','empresa','sector'].forEach(function(name){var field=form.elements[name];if(field)field.required=!individual;});">
- <option value="" disabled selected></option>
- <option value="individual">Inscripción individual</option>
- <option value="grupo">Grupo o delegación</option>
- <option value="licencia_corporativa">Licencia / cohorte corporativa</option>
- </select>
- <small style="display:block;margin-top:7px;color:#93A0B4;font-family:'Lora',Georgia,serif;font-size:11.5px;">Para inscripción individual, empresa, puesto y sector son opcionales.</small>
- </div>
- <div><label class="rm-lb">Email personal o corporativo</label><input class="rm-in" type="email" name="email" required></div>
- <div class="rm-2col" style="display:grid;grid-template-columns:1fr 1fr;gap:22px 20px;">
- <div><label class="rm-lb">Puesto</label><input class="rm-in" name="puesto" required></div>
- <div><label class="rm-lb">Institución / Empresa</label><input class="rm-in" name="empresa" required></div>
- </div>
- <div><label class="rm-lb">Sector financiero / industria</label>
- <select class="rm-in" name="sector" required>
- <option value="" disabled selected></option>
- <option>AFORE / Fondos de Pensión</option>
- <option>Aseguradora / Insurance</option>
- <option>Banca</option>
- <option>Casa de Bolsa / Broker Dealer</option>
- <option>Asset Manager</option>
- <option>Hedge Fund</option>
- <option>Family Office</option>
- <option>Corporativo</option>
- <option>PyME</option>
- <option>Gobierno</option>
- <option>Energía</option>
- <option>Otro</option>
- </select>
- </div>
- <div class="rm-2col" style="display:grid;grid-template-columns:1fr 1fr;gap:22px 20px;">
- <div><label class="rm-lb">País</label>
- <select class="rm-in" name="pais" required>
- <option value="" disabled data-iso=""></option>
- <option data-iso="mx" selected>México</option>
- <option data-iso="us">Estados Unidos</option>
- <option data-iso="es">España</option>
- <option data-iso="co">Colombia</option>
- <option data-iso="pe">Perú</option>
- <option data-iso="cl">Chile</option>
- <option data-iso="ar">Argentina</option>
- <option data-iso="ec">Ecuador</option>
- <option data-iso="gt">Guatemala</option>
- <option data-iso="pa">Panamá</option>
- <option data-iso="cr">Costa Rica</option>
- <option data-iso="do">República Dominicana</option>
- <option data-iso="bo">Bolivia</option>
- <option data-iso="uy">Uruguay</option>
- <option data-iso="py">Paraguay</option>
- <option data-iso="ve">Venezuela</option>
- <option data-iso="hn">Honduras</option>
- <option data-iso="sv">El Salvador</option>
- <option data-iso="ni">Nicaragua</option>
- <option data-iso="br">Brasil</option>
- <option data-iso="ca">Canadá</option>
- <option data-iso="">Otro</option>
- </select>
- </div>
- <div><label class="rm-lb">WhatsApp</label><input class="rm-in" id="rm-whatsapp" name="whatsapp" type="tel" required></div>
- </div>
- <label style="display:flex;align-items:flex-start;gap:10px;font-size:11.5px;color:#5a6577;font-family:'Lora',Georgia,serif;line-height:1.55;cursor:pointer;margin-top:2px;">
- <input type="checkbox" name="privacidad" required style="margin-top:2px;width:14px;height:14px;flex:none;cursor:pointer;accent-color:#1b2430;">
- <span>He leído y acepto el <a href="https://riskmathics.com/avisoprivacidad" target="_blank" rel="noopener" style="color:#1b2430;font-weight:600;text-decoration:underline;text-underline-offset:2px;">Aviso de Privacidad</a> y autorizo el tratamiento de mis datos y ser contactado por RiskMathics.</span>
- </label>
- <button type="submit" style="background:#C55A2B;color:#ffffff;font-weight:600;font-size:13px;letter-spacing:1.8px;text-transform:uppercase;border:none;padding:17px;border-radius:4px;cursor:pointer;font-family:'Poppins',Arial,sans-serif;margin-top:4px;">Quiero el temario</button>
- <p style="font-size:10.5px;color:#9aa4b4;margin:0;text-align:center;font-family:'Poppins',Arial,sans-serif;letter-spacing:.4px;">Verificamos tu correo y tu teléfono con un código · Datos protegidos</p>
- </form>
- <div id="rm-verify" style="display:none;"></div>
- <div id="rm-thanks" style="display:none;border:1px solid #b7e4c7;background:#f6fdf9;color:#1b4332;padding:22px;border-radius:6px;font-size:14.5px;font-family:'Lora',Georgia,serif;line-height:1.6;"><b>Listo.</b> Recibimos y verificamos tus datos. Te enviamos el temario a tu correo y un asesor te contactará.</div>
- <div style="margin-top:34px;padding-top:28px;border-top:1px solid #edf0f5;text-align:center;">
- <div style="font-size:10px;color:#93A0B4;letter-spacing:2.2px;font-family:'Poppins',Arial,sans-serif;">O INSCRÍBETE Y PAGA DIRECTO</div>
- <div style="font-size:30px;font-weight:300;color:#26150B;margin:14px 0 2px;font-family:'Poppins',Arial,sans-serif;letter-spacing:.5px;">MXN $20,137 <span style="font-size:15px;font-weight:400;color:#9aa4b4;letter-spacing:.5px;">+ TAX</span></div>
- <div style="font-size:11px;color:#9aa4b4;font-family:'Lora',Georgia,serif;font-style:italic;margin-bottom:18px;">MXN $20,137 · 6 sesiones · 15 horas</div>
- <div style="display:grid;gap:10px;">
- <a id="rm-paypal" href="https://bffdsgvgcvmojobfiuay.supabase.co/functions/v1/paypal-pay?curso=volatilidad" target="_blank" rel="noopener" style="background:#C55A2B;color:#ffffff;font-weight:600;font-size:12.5px;letter-spacing:1.6px;text-transform:uppercase;padding:15px;border-radius:4px;text-decoration:none;white-space:nowrap;font-family:'Poppins',Arial,sans-serif;">Pagar con PayPal</a>
- <a id="rm-stripe" href="https://buy.stripe.com/4gM28j1Z52es2ghfrz2RA0h" target="_blank" rel="noopener" style="background:transparent;border:1.5px solid #26150B;color:#26150B;font-weight:600;font-size:12.5px;letter-spacing:1.6px;text-transform:uppercase;padding:14px;border-radius:4px;text-decoration:none;white-space:nowrap;font-family:'Poppins',Arial,sans-serif;">Pagar con tarjeta · Stripe</a>
- </div>
- <p style="font-size:10px;color:#b3bcc9;margin-top:16px;font-family:'Poppins',Arial,sans-serif;letter-spacing:.5px;">100% seguro · SSL · PayPal Verified · RiskMathics Financial Institute</p>
- </div>
- </div>
- </div>
+ 
 </section>
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
 <script>
