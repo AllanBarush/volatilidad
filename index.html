@@ -36,6 +36,30 @@ ul.temas li::before{content:"";position:absolute;left:0;top:24px;width:9px;heigh
 .cross .s{font-style:italic;color:var(--soft);font-size:14px;margin-top:4px}
 footer{background:var(--bg2);color:var(--soft);padding:36px 24px;text-align:center;font-family:'Poppins',Arial,sans-serif;font-size:12px;line-height:2;border-top:1px solid var(--rule)}
 footer a{color:var(--acc);text-decoration:none}
+</style>
+<style>
+/* ==== Temario del libro TE ==== */
+.tem-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:26px;margin-top:8px}
+@media(max-width:820px){.tem-grid{grid-template-columns:1fr}}
+.tem-h{font-family:'Poppins',Arial,sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--acc);margin:0 0 16px}
+.tem-sem{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.tem-sem li{display:flex;gap:12px;align-items:flex-start;background:var(--card);
+  border:1px solid rgba(216,160,92,.18);border-radius:10px;padding:12px 15px;
+  font-size:14.5px;line-height:1.6;color:var(--ink)}
+.tw{flex:none;font-family:'Poppins',Arial,sans-serif;font-weight:700;font-size:11px;
+  letter-spacing:.08em;color:#1D1206;background:var(--acc);border-radius:6px;
+  padding:3px 8px;margin-top:2px}
+.tem-lado{display:flex;flex-direction:column;gap:14px}
+.tem-cap{background:linear-gradient(160deg,rgba(216,160,92,.16),rgba(197,90,43,.06));
+  border:1px solid rgba(216,160,92,.38);border-radius:12px;padding:16px 18px}
+.tem-cap-k{font-family:'Poppins',Arial,sans-serif;font-size:10.5px;font-weight:700;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--acc);margin-bottom:7px}
+.tem-cap p{font-size:13.5px;line-height:1.65;color:var(--ink);margin:0}
+.tem-meta{background:var(--card);border:1px solid rgba(229,214,196,.10);
+  border-radius:10px;padding:13px 15px;font-size:13.5px;line-height:1.65;color:var(--soft)}
+.tem-meta b{display:block;font-family:'Poppins',Arial,sans-serif;font-size:10.5px;
+  font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);margin-bottom:5px}
 </style></head><body>
 
 <header class="hero">
@@ -51,6 +75,19 @@ footer a{color:var(--acc);text-decoration:none}
  <div class="hero-ctas"><a class="btn btn-primary" href="#rm-enroll">Inscríbete</a><a class="btn btn-ghost" href="#programa">Ver detalles</a></div>
 </header>
 
+
+<section class="sec" id="temario"><div class="wrap">
+ <div class="kicker">Temario</div><h2 class="sec-title">Qu&eacute; vas a dominar.</h2>
+ <p class="sec-sub">La volatilidad es el precio del miedo institucional. Este módulo convierte la superficie de volatilidad en un sistema de señales operativas adelantadas.</p>
+ <div class="tem-grid">
+  <div><h3 class="tem-h">Contenidos</h3>
+   <ol class="tem-sem"><li><span class="tw">01</span><span>El VIX: construcción, interpretación y límites · el precio de la incertidumbre institucional.</span></li><li><span class="tw">02</span><span>Los cinco regímenes de volatilidad: de Complacencia (9–12) a Crisis (35–80+).</span></li><li><span class="tw">03</span><span>Term structure: contango y backwardation como indicadores adelantados.</span></li><li><span class="tw">04</span><span>Skew y volatility smile: asimetría de protección institucional.</span></li><li><span class="tw">05</span><span>Implícita vs. realizada: variance risk premium.</span></li><li><span class="tw">06</span><span>Transmisión cross-asset: VIX-credit, FX vol, MOVE Index.</span></li><li><span class="tw">07</span><span>Opciones institucionales: calendar/ratio spreads, collars, overlays.</span></li></ol></div>
+  <aside class="tem-lado">
+   <div class="tem-cap"><div class="tem-cap-k">Entregable</div><p>VIX Regime Dashboard + Calendar Spread Template + Vol Overlay Memo para portafolio institucional.</p></div>
+   <div class="tem-meta"><b>Herramientas que te llevas</b>VIX Regime Dashboard · Vol Term Structure Tracker · Skew Monitor · Cross-Asset Vol Map · Calendar Spread Payoff.</div>
+  </aside>
+ </div>
+</div></section>
 <section class="sec" id="programa"><div class="wrap">
  <div class="kicker">El programa</div><h2 class="sec-title">Ficha del programa.</h2><p class="sec-sub">Curso de RiskMathics Financial Institute en formato Virtual Live con sesiones presenciales para Capstones. Regístrate y recibe el temario completo por correo; un asesor te contacta el mismo día.</p>
  <div class="ficha">
